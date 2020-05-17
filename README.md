@@ -4,11 +4,8 @@
 
 Soit la base de données relationnelle définie par les relations suivante :
 
-```Markdown
-Actor(<ins>Id_Actor</ins>, Firstname, Lastname, Birthdate, Sex)
-Play(<ins></ins>)
-Director(<ins></ins>)
-Movie(<ins>Id_Movie</ins>, Title, Year, Duration, Nationality, #Id_Director)
-Tv_Show(<ins>Id_Tv_Show</ins>, )
-Genre_Movie(<ins>#Id_Movie, Genre</ins>)
-```
+__Person(<ins>Id_Person</ins>, Firstname, Lastname, Birthdate, Sex, Nationality)__<br>
+__Cast(<ins>#Id_Movie, #Id_Person</ins>, Role)__<br>
+__Movie(<ins>Id_Movie</ins>, Title, Year, Duration, Nationality, #Id_Director ref. Person.Id_Person)__<br>
+__Movie_Genre(<ins>#Id_Movie, #Id_Genre</ins>)__<br>
+__Genre(<ins>Id_Genre</ins>, Nom)__
