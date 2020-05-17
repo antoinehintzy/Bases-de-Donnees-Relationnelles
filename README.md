@@ -16,8 +16,9 @@ En utilisant l'algèbre relationnelle, donnez une expression algébrique pour ch
 
 1. Donnez tous les genres (tous les attributs).
 2. Donnez le titre ainsi que leur année de sortie de tous les films.
-3. Donnez la liste des réalisateurs (prénom et nom) ayant sorti des films après 2015.
+3. Donnez la liste des réalisateur.rice.s (prénom et nom) ayant sorti des films après 2015.
 4. Donnez le nom des genres du film "Imitation Game".
 5. Donnez le nom et le prénom de tou.te.s les acteur.rice.s ayant joué dans le film _"Pirates of Silicon Valley"_, en précisant le rôle dans lequel ils/elles ont joué.
-6. Donnez la liste des acteur.rice.s ayant déjà joué dans un film avec 
-7. Donnez la liste des acteur.rice.s ayant joué à la fois dans _"Imitation Game"_ et dans "The Social Network"_.
+6. Donnez la liste des acteur.rice.s ayant joué à la fois dans _"Imitation Game"_ et dans "The Social Network"_.
+7. Donnez la liste des acteur.rice.s ayant déjà joué dans un film avec _Kaira Knightley_, mais pas avec _Benedict Cumberbatch_.
+8. Donnez la liste des films n'ayant pas été réalisé par .
