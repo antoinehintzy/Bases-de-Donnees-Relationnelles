@@ -4,11 +4,11 @@
 
 Soit la base de données relationnelle définie par les relations suivante :
 
-__Person(<ins>Id_Person</ins>, Firstname, Lastname, Birthdate, Sex, Nationality)__<br>
-__Character(<ins>Id_Character</ins>, #Id_Movie, #Id_Person, Firstname, Lastname)__<br>
-__Movie(<ins>Id_Movie</ins>, Title, Year, Duration, Nationality, #Director__ *ref. Person.Id_Person*__)__<br>
-__Movie_Genre(<ins>#Id_Movie, #Id_Genre</ins>)__<br>
-__Genre(<ins>Id_Genre</ins>, Name)__
+__Person(<ins>id_person</ins>, firstname, lastname, birthdate, sex, nationality)__<br>
+__Character(<ins>id_character</ins>, #id_movie, #id_person, firstname, lastname)__<br>
+__Movie(<ins>id_movie</ins>, title, year, duration, nationality, #director__ *ref. Person.id_person*__)__<br>
+__Movie_Genre(<ins>#id_movie, #id_genre</ins>)__<br>
+__Genre(<ins>id_genre</ins>, name)__
 
 ### Requêtes
 
