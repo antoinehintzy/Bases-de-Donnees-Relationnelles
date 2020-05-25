@@ -8,8 +8,18 @@ Dans ce TP, nous allons exécuter des requêtes d'écriture et de sélection de 
 
 1. Télécharger le _repository_ [https://github.com/datacharmer/test_db](https://github.com/datacharmer/test_db) (bouton vert __Clone or download__)
 2. Vérifiez que la commande `mysql` fonctionne sur votre ordinateur depuis un terminal. Si ce n'est pas le cas, vous devrez l'ajouter au __PATH__.
-Sur MacOS, exécutez les commandes suivantes : `touch ~/.bash_profile`, `export PATH="/Applications/MAMP/Library/bin:$PATH"`, puis `source ~/.bash_profile`. Sur Windows : Paramètres, "Paramètres de système avancés", rajouter `C:\WAMP\bin` (?).
-3. Depuis un terminal, allez dans le _repository_ que vous venez de télécharger avec la commande `cd`.
+	- [MacOS] dans un terminal : 
+		- exécuter la commande : `nano ~/.bash_profile`
+		- rajouter la ligne : `export PATH="/Applications/MAMP/Library/bin:$PATH"`
+		- `control` + `X`
+		- `Y`
+		- appuyer sur __Entrée__
+		- exécuter la commande : `source ~/.bash_profile`
+	- [Windows] 
+		- dans la barre Windows en bas de l'écran, cliquer droit sur le __W__ vert, puis sur __MySQL__, puis sur __Console MySQL__. Cliquer sur __OK__ sans mettre de mot de passe. Ceci ouvre un terminal, nous n'allons l'utiliser que pour trouver le chemin de l'exécutable __MySQL.exe__. Il se trouve normalement dans l'en-tête de la fenêtre nouvellement ouverte (`C:\wamp64\bin\...\mysql.exe`). Gardez cette fenêtre ouverte pour retrouver ce chemin.
+		- Ouvrez le __Panneau de configuration__, puis allez recherchez "__Affichage des paramètres système avancés__".
+		- Dans la variable système __Path__, rajoutez le chemin trouvé précédemment sans le __\mysql.exe__ final.
+3. Depuis un terminal, allez dans le _repository_ que vous venez de télécharger avec la commande `cd` (tapez `cd` suivi d'un espace, puis faites glisser le dossier téléchargé dedans).
 4. Exécutez la commande : `mysql -u root -p < ./employees.sql` (le mot de passe est souvent `root` par défaut). Cette commande va exécuter les instructions présentes dans le fichier `employees.sql`. Ce fichier construit d'abord les __tables__ de notre base de données, ajoute les contraintes (clé primaire/étrangères...) puis y insère un gros volume de données.
 5. Vous pouvez supprimer le _repository_ téléchargé, nous n'en auront plus besoin.
 
