@@ -31,5 +31,6 @@ Avant de travailler sur une base de données, il faut comprendre les relations (
 
 Pour ces exercices, vous pouvez exécuter vos requêtes depuis la page __PhpMyAdmin__, dans le logiciel __MySQL Workbench__ ou dans un terminal via le shell MySQL (`mysql -u root -p`, déconseillé car pas très visuel).
 
-1. Donnez la liste de tous les départements, triés par ordre alphabétique de leur nom. Vous ne donnerez que le nom.
+1. Donnez la liste de tous les départements, triés par ordre alphabétique de leur nom. Vous ne donnerez que le nom et renommerez la colonne correspondante en `'Nom du département'`.
+_9 tuples_
 
