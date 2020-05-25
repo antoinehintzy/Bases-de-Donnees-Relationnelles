@@ -52,3 +52,4 @@ Pour ces exercices, vous pouvez exécuter vos requêtes depuis la page __PhpMyAd
 12. Donnez la liste des personnes qui travaillent ou ont travaillé dans le département de recherche ET/OU dans le département de développement.
 13. Donnez la liste des employés ayant eu les titres d'ingénieur et d'ingénieur senior.<br>Vous limiterez le résultat à 500 lignes.
 14. Donnez la liste des employés ayant eu le titre d'ingénieur senior mais pas celui d'ingénieur.<br>Vous limiterez le résultat à 500 lignes.
+15. Rajoutez vous à la base de données, vous ferez en sorte d'avoir le titre d'ingénieur, de travailler au département de développement, et vous vous fixerez le salaire de votre choix pour la durée de votre choix. 
