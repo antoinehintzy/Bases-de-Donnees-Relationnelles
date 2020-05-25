@@ -29,7 +29,7 @@ Avant de travailler sur une base de données, il faut comprendre les relations (
 
 #### Aide
 
-- En SQL, tout ce qui se trouve à droite de `--` est un __commentaire__.
+- En SQL, tout ce qui se trouve à droite de `-- ` est un __commentaire__.
 - Sauvegardez vos réponses dans un fichier `.sql` (surtout si vous travaillez sur MySQL Workbench).
 - La base de données contenant énormément de données, ajoutez une limite au nombre de lignes du résultat en ajoutant `LIMIT 100` à la fin de votre requête par exemple pour limiter à 100 tuples.
 
@@ -38,9 +38,17 @@ Avant de travailler sur une base de données, il faut comprendre les relations (
 
 Pour ces exercices, vous pouvez exécuter vos requêtes depuis la page __PhpMyAdmin__, dans le logiciel __MySQL Workbench__ ou dans un terminal via le shell MySQL (`mysql -u root -p`, déconseillé car pas très visuel).
 
-1. Donnez la liste de tous les départements, triés par ordre alphabétique de leur nom. Vous ne donnerez que le nom et renommerez la colonne correspondante en `Nom du département`.
-_Résultat : 9 tuples_
-2. Donnez les informations présentes dans la table `employees` concernant l'employé __Georgi Facello__.
-_Résultat : 2 tuples_
-3. Donnez tous les titres par lesquels est passé le __Georgi Facello__ né le __23 janvier 1956__.
-4. Donnez le nombre d'employés présents dans la table `employees`.
+1. Donnez le nombre d'employés présents dans la table `employees`.<br>_Résultat : 300024_
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+11.
+12.
+13.
+14.
