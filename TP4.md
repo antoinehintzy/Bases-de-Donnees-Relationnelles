@@ -4,7 +4,7 @@ Avant de commencer ce TP, assurez-vous d'avoir installé et lancé WAMP (Windows
 
 ### Installation de la base de données
 
-Dans ce TP, nous allons exécuter des requêtes de sélection de données. Afin d'avoir des données à requêter, nous allons utiliser une base de données de test, représentant le système RH d'une entreprise. Nous allons pour cela utiliser des scripts permettant de configurer la base de données sur notre ordinateur :
+Dans ce TP, nous allons exécuter des requêtes d'écriture et de sélection de données. Afin d'avoir des données à requêter, nous allons utiliser une base de données de test, représentant le système RH d'une entreprise. Nous allons pour cela utiliser des scripts permettant de configurer la base de données sur notre ordinateur :
 
 1. Télécharger le _repository_ [https://github.com/datacharmer/test_db](https://github.com/datacharmer/test_db) (bouton vert __Clone or download__)
 2. Vérifiez que la commande `mysql` fonctionne sur votre ordinateur depuis un terminal. Si ce n'est pas le cas, vous devrez l'ajouter au __PATH__.
@@ -26,3 +26,10 @@ Avant de travailler sur une base de données, il faut comprendre les relations (
 - Identifiez les relations et associations de la base de données.
 - Identifiez les clés primaires/étrangères.
 - Essayez également de comprendre le fichier [`employees.sql`](https://github.com/datacharmer/test_db/blob/master/employees.sql) permettant de créer la base de données.
+
+#### Exercices
+
+Pour ces exercices, vous pouvez exécuter vos requêtes depuis la page __PhpMyAdmin__, dans le logiciel __MySQL Workbench__ ou dans un terminal via le shell MySQL (`mysql -u root -p`, déconseillé car pas très visuel).
+
+1. Donnez la liste de tous les départements, triés par ordre alphabétique de leur nom. Vous ne donnerez que le nom.
+
