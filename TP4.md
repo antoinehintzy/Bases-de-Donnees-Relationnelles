@@ -1,3 +1,5 @@
 ## TP4 - SQL
 
-![](https://github.com/datacharmer/test_db/blob/master/images/employees.png)
+<p align="center">
+  ![](https://github.com/datacharmer/test_db/blob/master/images/employees.png)
+</p>
