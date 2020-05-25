@@ -31,6 +31,9 @@ Avant de travailler sur une base de données, il faut comprendre les relations (
 
 Pour ces exercices, vous pouvez exécuter vos requêtes depuis la page __PhpMyAdmin__, dans le logiciel __MySQL Workbench__ ou dans un terminal via le shell MySQL (`mysql -u root -p`, déconseillé car pas très visuel).
 
-1. Donnez la liste de tous les départements, triés par ordre alphabétique de leur nom. Vous ne donnerez que le nom et renommerez la colonne correspondante en `'Nom du département'`.
-_9 tuples_
-
+1. Donnez la liste de tous les départements, triés par ordre alphabétique de leur nom. Vous ne donnerez que le nom et renommerez la colonne correspondante en `Nom du département`.
+_Résultat : 9 tuples_
+2. Donnez les informations présentes dans la table `employees` concernant l'employé __Georgi Facello__.
+_Résultat : 2 tuples_
+3. Donnez tous les titres par lesquels est passé le __Georgi Facello__ né le __23 janvier 1956__.
+4. Donnez le nombre d'employés présents dans la table `employees`.
