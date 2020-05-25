@@ -8,7 +8,7 @@ Dans ce TP, nous allons exécuter des requêtes d'écriture et de sélection de 
 
 1. Télécharger le _repository_ [https://github.com/datacharmer/test_db](https://github.com/datacharmer/test_db) (bouton vert __Clone or download__)
 2. Vérifiez que la commande `mysql` fonctionne sur votre ordinateur depuis un terminal. Si ce n'est pas le cas, vous devrez l'ajouter au __PATH__.
-Sur MacOS, exécutez les commandes suivantes : `export PATH="/Applications/MAMP/Library/bin:$PATH"` puis `source ~/.bash_profile`.
+Sur MacOS, exécutez les commandes suivantes : `touch ~/.bash_profile`, `export PATH="/Applications/MAMP/Library/bin:$PATH"`, puis `source ~/.bash_profile`.
 3. Depuis un terminal, allez dans le _repository_ que vous venez de télécharger avec la commande `cd`.
 4. Exécutez la commande : `mysql -u root -p < ./employees.sql` (le mot de passe est souvent `root` par défaut). Cette commande va exécuter les instructions présentes dans le fichier `employees.sql`. Ce fichier construit d'abord les __tables__ de notre base de données, ajoute les contraintes (clé primaire/étrangères...) puis y insère un gros volume de données.
 5. Vous pouvez supprimer le _repository_ téléchargé, nous n'en auront plus besoin.
