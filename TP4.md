@@ -39,16 +39,16 @@ Avant de travailler sur une base de données, il faut comprendre les relations (
 Pour ces exercices, vous pouvez exécuter vos requêtes depuis la page __PhpMyAdmin__, dans le logiciel __MySQL Workbench__ ou dans un terminal via le shell MySQL (`mysql -u root -p`, déconseillé car pas très visuel).
 
 1. Donnez le nombre d'employés présents dans la table `employees`.<br>_Résultat : 300024_
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
-11.
-12.
-13.
-14.
+2. Donnez la liste de tous les départements, triés par ordre alphabétique de leur nom.<br>Vous ne donnerez que le nom et renommerez la colonne correspondante en `Nom du département`.<br>_Résultat : 9 tuples_
+3. Donnez les noms et prénoms des employés dont le nom de famille commence par un `'C'` (majuscule ou minuscule).<br>Vous trierez les résultats alphabétiquement par nom croissant, puis par prénom décroissant.<br>Limitez le résultat à 500 tuples et veillez à éliminer les doublons.
+4. Combien de personnes s'appellent __Georgi Facello__ ?<br>_Résultat : 2_
+5. Donnez la liste des employés ainsi que leurs salaires.<br>Vous limiterez le résultat à 500 lignes.
+6. Donnez la liste des employés qui travaillent ou ont travaillé au départemant de recherche.<br>Vous limiterez le résultat à 500 lignes.
+7. Donnez la liste des employés ayant le même nom de famille.<br>Limitez le résultat à 500 lignes.
+8. Quel était le montant du salaire de __Hinrich Randi__ en 1998 ?<br>Les salaires étant actualisés chaque année, le résultat doit comporter 2 lignes.
+9. Donnez l'ID, le nom et le prénom des employés étant passés par au moins 3 titres différents au sein de l'entreprise.<br>Vous limiterez le résultat à 500 lignes.
+10. Donnez pour chaque employé la somme de ses salaires cumulés au sein de l'entreprise dans la colonne "Total des salaires", ainsi que le nombre de salaires différents qu'il a perçu dans la colonne "Nombre de salaires".<br>Vous limiterez le résultat à 500 lignes.
+11. Quels employés ont toujours eu le même salaire ?<br>Vous limiterez le résultat à 500 lignes.
+12. Donnez la liste des personnes qui travaillent ou ont travaillé dans le département de recherche ET/OU dans le département de développement.
+13. Donnez la liste des employés ayant eu les titres d'ingénieur et d'ingénieur senior.<br>Vous limiterez le résultat à 500 lignes.
+14. Donnez la liste des employés ayant eu le titre d'ingénieur senior mais pas celui d'ingénieur.<br>Vous limiterez le résultat à 500 lignes.
