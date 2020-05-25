@@ -45,9 +45,9 @@ Pour ces exercices, vous pouvez exécuter vos requêtes depuis la page __PhpMyAd
 5. Donnez la liste des employés ainsi que leurs salaires.<br>Vous limiterez le résultat à 500 lignes.
 6. Donnez la liste des employés qui travaillent ou ont travaillé au départemant de recherche.<br>Vous limiterez le résultat à 500 lignes.
 7. Donnez la liste des employés ayant le même nom de famille.<br>Limitez le résultat à 500 lignes.
-8. Quel était le montant du salaire de __Hinrich Randi__ en 1998 ?<br>Les salaires étant actualisés chaque année, le résultat doit comporter 2 lignes.
+8. Quel était le montant du salaire de __Hinrich Randi__ en 1998 ?<br>Les salaires étant actualisés chaque année, le résultat doit comporter 2 lignes (avant et après actualisation).
 9. Donnez l'ID, le nom et le prénom des employés étant passés par au moins 3 titres différents au sein de l'entreprise.<br>Vous limiterez le résultat à 500 lignes.
-10. Donnez pour chaque employé la somme de ses salaires cumulés au sein de l'entreprise dans la colonne "Total des salaires", ainsi que le nombre de salaires différents qu'il a perçu dans la colonne "Nombre de salaires".<br>Vous limiterez le résultat à 500 lignes.
+10. Donnez pour chaque employé la somme de ses salaires cumulés au sein de l'entreprise dans la colonne "`Total des salaires`", ainsi que le nombre de salaires différents qu'il a perçu dans la colonne "`Nombre de salaires`".<br>Vous limiterez le résultat à 500 lignes.
 11. Quels employés ont toujours eu le même salaire ?<br>Vous limiterez le résultat à 500 lignes.
 12. Donnez la liste des personnes qui travaillent ou ont travaillé dans le département de recherche ET/OU dans le département de développement.
 13. Donnez la liste des employés ayant eu les titres d'ingénieur et d'ingénieur senior.<br>Vous limiterez le résultat à 500 lignes.
