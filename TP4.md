@@ -23,9 +23,16 @@ Avant de travailler sur une base de données, il faut comprendre les relations (
 	<img src="https://github.com/datacharmer/test_db/blob/master/images/employees.jpg" width="70%">
 </p>
 
-- Identifiez les relations et associations de la base de données.
-- Identifiez les clés primaires/étrangères.
-- Essayez également de comprendre le fichier [`employees.sql`](https://github.com/datacharmer/test_db/blob/master/employees.sql) permettant de créer la base de données.
+1. Identifiez les relations et associations de la base de données.
+2. Identifiez les clés primaires/étrangères.
+3. Essayez également de comprendre le fichier [`employees.sql`](https://github.com/datacharmer/test_db/blob/master/employees.sql) permettant de créer la base de données.
+
+#### Aide
+
+- En SQL, tout ce qui se trouve à droite de `--` est un __commentaire__.
+- Sauvegardez vos réponses dans un fichier `.sql` (surtout si vous travaillez sur MySQL Workbench).
+- La base de données contenant énormément de données, ajoutez une limite au nombre de lignes du résultat en ajoutant `LIMIT 100` à la fin de votre requête par exemple pour limiter à 100 tuples.
+
 
 #### Exercices
 
