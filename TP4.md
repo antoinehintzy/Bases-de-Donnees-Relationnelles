@@ -42,6 +42,14 @@ Avant de travailler sur une base de données, il faut comprendre les relations (
 - En SQL, tout ce qui se trouve à droite de `-- ` est un __commentaire__.
 - Sauvegardez vos réponses dans un fichier `.sql` (surtout si vous travaillez sur MySQL Workbench).
 - La base de données contenant énormément de données, ajoutez une limite au nombre de lignes du résultat en ajoutant `LIMIT 100` à la fin de votre requête par exemple pour limiter à 100 tuples.
+- Ordre des mots-clés :
+	1. `SELECT`
+	2. `FROM` (avec `,`/(`INNER`/`NATURAL`/`CROSS`/`RIGHT`/`LEFT`(`OUTER`))) `JOIN`)
+	3. `WHERE`
+	4. `GROUP BY`
+	5. `HAVING` (sorte de `WHERE` pour les éléments regroupés (`AVG`, `SUM`...))
+	6. `ORDER BY`
+	7. `LIMIT` `OFFSET`
 
 
 #### Exercices
