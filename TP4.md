@@ -19,7 +19,7 @@ Dans ce TP, nous allons exécuter des requêtes d'écriture et de sélection de 
 		- Ouvrir XAMPP et lancer les services Apache et MySQL.
 		- Cliquer sur le bouton Shell dans l'interface de WAMPP. 
 3. Depuis un terminal, allez dans le _repository_ que vous venez de télécharger avec la commande `cd` (tapez `cd` suivi d'un espace, puis faites glisser le dossier téléchargé dedans).
-	- `cd test_db`
+	- `cd test_db-master`
 4. Exécutez la commande : `mysql -u root -p < ./employees.sql` (le mot de passe est souvent `root` ou vide par défaut). Cette commande va exécuter les instructions présentes dans le fichier `employees.sql`. Ce fichier construit d'abord les __tables__ de notre base de données, ajoute les contraintes (clé primaire/étrangères...) puis y insère un gros volume de données.
 5. Vous pouvez supprimer le _repository_ téléchargé, nous n'en auront plus besoin.
 
