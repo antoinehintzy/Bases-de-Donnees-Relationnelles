@@ -16,11 +16,11 @@ Dans ce TP, nous allons exécuter des requêtes d'écriture et de sélection de 
 		- appuyer sur __Entrée__
 		- exécuter la commande : `source ~/.bash_profile`
 	- [Windows] 
-		- dans la barre Windows en bas de l'écran, cliquer droit sur le __W__ vert, puis sur __MySQL__, puis sur __Console MySQL__. Cliquer sur __OK__ sans mettre de mot de passe. Ceci ouvre un terminal, nous n'allons l'utiliser que pour trouver le chemin de l'exécutable __MySQL.exe__. Il se trouve normalement dans l'en-tête de la fenêtre nouvellement ouverte (`C:\wamp64\bin\...\mysql.exe`). Gardez cette fenêtre ouverte pour retrouver ce chemin.
-		- Ouvrez le __Panneau de configuration__, puis allez recherchez "__Affichage des paramètres système avancés__".
-		- Dans la variable système __Path__, rajoutez le chemin trouvé précédemment sans le __\mysql.exe__ final.
+		- Ouvrir XAMPP et lancer les services Apache et MySQL.
+		- Cliquer sur le bouton Shell dans l'interface de WAMPP. 
 3. Depuis un terminal, allez dans le _repository_ que vous venez de télécharger avec la commande `cd` (tapez `cd` suivi d'un espace, puis faites glisser le dossier téléchargé dedans).
-4. Exécutez la commande : `mysql -u root -p < ./employees.sql` (le mot de passe est souvent `root` par défaut). Cette commande va exécuter les instructions présentes dans le fichier `employees.sql`. Ce fichier construit d'abord les __tables__ de notre base de données, ajoute les contraintes (clé primaire/étrangères...) puis y insère un gros volume de données.
+	- `cd test_db`
+4. Exécutez la commande : `mysql -u root -p < ./employees.sql` (le mot de passe est souvent `root` ou vide par défaut). Cette commande va exécuter les instructions présentes dans le fichier `employees.sql`. Ce fichier construit d'abord les __tables__ de notre base de données, ajoute les contraintes (clé primaire/étrangères...) puis y insère un gros volume de données.
 5. Vous pouvez supprimer le _repository_ téléchargé, nous n'en auront plus besoin.
 
 ### Énoncé de TP
