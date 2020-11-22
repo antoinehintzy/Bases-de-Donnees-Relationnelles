@@ -1,13 +1,13 @@
 ## TP4 - SQL
 
-Avant de commencer ce TP, assurez-vous d'avoir installé et lancé WAMP (Windows) ou MAMP (MacOS) ou XAMPP (Linux/Windows/MacOS).
+Avant de commencer ce TP, assurez-vous d'avoir installé et lancé XAMPP (lancer Apache et MySQL uniquement).
 
 ### Installation de la base de données
 
-Dans ce TP, nous allons exécuter des requêtes d'écriture et de sélection de données. Afin d'avoir des données à requêter, nous allons utiliser une base de données de test, représentant le système RH d'une entreprise. Nous allons pour cela utiliser des scripts permettant de configurer la base de données sur notre ordinateur :
+Dans ce TP, nous allons exécuter des requêtes d'écriture et de sélection de données. Afin d'avoir des données à requêter, nous allons utiliser une base de données de tests, représentant le système RH d'une entreprise. Nous allons pour cela utiliser des scripts permettant de configurer la base de données sur notre ordinateur :
 
-1. Télécharger le _repository_ [https://github.com/datacharmer/test_db](https://github.com/datacharmer/test_db) (bouton vert __Clone or download__)
-2. Vérifiez que la commande `mysql` fonctionne sur votre ordinateur depuis un terminal. Si ce n'est pas le cas, vous devrez l'ajouter au __PATH__.
+1. Télécharger le _repository_ [https://github.com/datacharmer/test_db](https://github.com/datacharmer/test_db) (bouton vert __Code__, puis __Download ZIP__).
+<!--2. Vérifiez que la commande `mysql` fonctionne sur votre ordinateur depuis un terminal. Si ce n'est pas le cas, vous devrez l'ajouter au __PATH__.
 	- [MacOS] dans un terminal : 
 		- exécuter la commande : `nano ~/.bash_profile`
 		- rajouter la ligne : `export PATH="/Applications/MAMP/Library/bin:$PATH"`
@@ -17,11 +17,11 @@ Dans ce TP, nous allons exécuter des requêtes d'écriture et de sélection de 
 		- exécuter la commande : `source ~/.bash_profile`
 	- [Windows] 
 		- Ouvrir XAMPP et lancer les services Apache et MySQL.
-		- Cliquer sur le bouton Shell dans l'interface de WAMPP. 
-3. Depuis un terminal, allez dans le _repository_ que vous venez de télécharger avec la commande `cd` (tapez `cd` suivi d'un espace, puis faites glisser le dossier téléchargé dedans).
-	- `cd test_db-master`
+		- Cliquer sur le bouton Shell dans l'interface de WAMPP.-->
+2. Cliquer sur le bouton __Shell__ dans l'interface de XAMPP.
+3. Depuis un terminal, allez dans le _repository_ que vous venez de télécharger avec la commande `cd` (tapez `cd` suivi d'un espace, puis faites glisser le dossier téléchargé et dézippé dedans).
 4. Exécutez la commande : `mysql -u root -p < ./employees.sql` (le mot de passe est souvent `root` ou vide par défaut). Cette commande va exécuter les instructions présentes dans le fichier `employees.sql`. Ce fichier construit d'abord les __tables__ de notre base de données, ajoute les contraintes (clé primaire/étrangères...) puis y insère un gros volume de données.
-5. Vous pouvez supprimer le _repository_ téléchargé, nous n'en auront plus besoin.
+5. Vous pouvez supprimer le _repository_ __test_db-master__ téléchargé, nous n'en auront plus besoin.
 
 ### Énoncé de TP
 
@@ -40,7 +40,7 @@ Avant de travailler sur une base de données, il faut comprendre les relations (
 #### Aide
 
 - En SQL, tout ce qui se trouve à droite de `-- ` est un __commentaire__.
-- Sauvegardez vos réponses dans un fichier `.sql` (surtout si vous travaillez sur MySQL Workbench).
+- Sauvegardez vos réponses dans un fichier `.sql` (surtout si vous travaillez sur MySQL Workbench ou Datagrip).
 - La base de données contenant énormément de données, ajoutez une limite au nombre de lignes du résultat en ajoutant `LIMIT 100` à la fin de votre requête par exemple pour limiter à 100 tuples.
 - Ordre des mots-clés :
 	1. `SELECT`
