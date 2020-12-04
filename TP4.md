@@ -1,6 +1,11 @@
 ## TP4 - SQL
 
-Avant de commencer ce TP, assurez-vous d'avoir installé et lancé XAMPP (lancer Apache et MySQL uniquement).
+Avant de commencer ce TP, assurez-vous d'avoir installé et lancé XAMPP (lancer Apache et MySQL uniquement) ou MAMP.
+Mac : installer MAMP, démarrer le serveur MAMP, ouvrir le terminal Mac, y exécuter la commande suivante :
+
+``` 
+sudo ln -s /Applications/MAMP/Library/bin/mysql /usr/local/bin/mysql
+```
 
 ### Installation de la base de données
 
